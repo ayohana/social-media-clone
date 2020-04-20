@@ -27,7 +27,9 @@ function SearchNewsfeed(){
     borderStyle: 'solid',
     borderWidth: '1px',
     fontSize: '15px',
-    color: 'red'
+    color: 'red',
+    marginLeft: '15px',
+    marginRight: '20px'
   }
 
   return(
@@ -38,7 +40,6 @@ function SearchNewsfeed(){
         <input placeholder={placeholderText} style={inputStyle}></input>
         </div>
       </div>
-
     </React.Fragment>
   )
 }

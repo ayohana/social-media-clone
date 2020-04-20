@@ -5,7 +5,7 @@ import SearchNewsfeed from './SearchNewsfeed'
 function Newsfeed(){
 
   const newsfeedStyles = {
-    height: '1000px',
+    height: '100%',
     borderColor: 'grey',
     borderStyle: 'solid',
     borderWidth: '1px',    
@@ -25,7 +25,18 @@ function Newsfeed(){
     {
       title: "Where can I get some?",
       body: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
-    }   
+    },
+
+    {
+      title: "Best Bacon Ever!",
+      body: "Bacon ipsum dolor sit amet salami jowl corned beef, andouille flank tongue ball tip kielbasa pastrami tri-tip meatloaf short loin beef biltong. Cow bresaola ground round strip steak fatback meatball shoulder leberkas pastrami sausage corned beef t-bone pork belly drumstick."
+    },
+
+    {
+      title: "Long live kittens~",
+      body: "Cat ipsum dolor sit amet, hunt anything that moves or hopped up on goofballs hide when guests come over. Hide when guests come over intrigued by the shower, or stare at ceiling climb leg for stretch and use lap as chair. Hunt anything that moves flop over, leave dead animals as gifts for chase imaginary bugs, chase mice for stare at ceiling yet hopped up on goofballs."
+    }
+
   ]
 
   return (

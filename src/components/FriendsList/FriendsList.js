@@ -4,7 +4,7 @@ import FriendCard from './FriendCard'
 function FriendsList(){
 
   const friendListStyles = {
-    backgroundColor: '#ffb459',
+    // backgroundColor: '#ffb459',
     height: '1000`px',
   }
 

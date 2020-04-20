@@ -1,18 +1,24 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import profileVector2 from '../../img/profile-vector2.png';
 
 const newsfeedCardStyles = {
   display: 'grid',
   gridTemplateColumns: '1fr 4fr',
+  gridColumnGap: '5px'
 }
 
 const pStyle = {
-  fontSize: '12px'
+  fontSize: '12px',
+  marginRight: '10px'
 }
 
 const imageStyle = {
-  width: '100px'
+  padding: "10px",
+  maxWidth: '75px',
+  display: "block",
+  marginLeft: "auto",
+  marginRight: "auto"
 }
 
 function NewsfeedCard(props){
