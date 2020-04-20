@@ -7,9 +7,9 @@ function NavigationBar(){
   const navBarStyles = {
     display: 'grid',
     gridTemplateColumns: '1fr 1fr 1fr',
-    borderColor: 'navy',
-    borderStyle: 'solid',
-    borderWidth: '3px'
+    // borderColor: 'navy',
+    // borderStyle: 'solid',
+    // borderWidth: '3px'
   }
   return(
     <React.Fragment>

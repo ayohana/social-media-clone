@@ -10,9 +10,10 @@ function Header(){
     // height: '200px',
     display: 'grid',
     gridTemplateColumns: '3fr 0.5fr 1fr 1fr',
-    borderColor: 'blue',
-    borderStyle: 'solid',
-    borderWidth: '5px'
+    // borderColor: 'blue',
+    // borderStyle: 'solid',
+    // borderWidth: '5px',
+    textAlign: 'center'
   }
   return (
     <React.Fragment>
