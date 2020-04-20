@@ -6,9 +6,7 @@ function Profile(){
 
   const profileStyles = {
     backgroundColor: '#8f91cc',
-    height: '1000px',
-    // width: '300px'
-    gridTemplateRows: '1fr 4fr',
+    height: '100%',
     padding: '20px'
   }
 
@@ -16,6 +14,7 @@ function Profile(){
     <React.Fragment>
       <div style={profileStyles}>
         <PersonalCard/>
+        <br />
         <Description/>
       </div>
     </React.Fragment>

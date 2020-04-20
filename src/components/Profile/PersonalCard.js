@@ -3,48 +3,52 @@ import profileVector from '../../img/profile-vector.png';
 
 function PersonalCard(){
   const name = "John W. Doe";
-  const tweets = "TWEETS";
-  const following = "FOLLOWING";
-  const followers = "FOLLOWERS";
-  const personalCardStyle = {
+  const tweets = "7";
+  const following = "12";
+  const followers = "1";
+
+  const linksStyle = {
     display: 'grid',
-    // gridTemplateColumns: '1fr 1fr 1fr',
-    textAlign: 'center'
+    gridTemplateColumns: '1fr 1fr 1fr',
+    gridGap: '10px',
+    textAlign: 'center',
+    color: 'whitesmoke',
+    textShadow: '2px 2px grey'
   };
-  const profileImageAndName = {
-    gridTemplateColumns: '2fr 1fr',
+  const profileImageNameAndLinks = {
     maxWidth: '400px',
-    borderColor: 'blue',
-    borderStyle: 'solid',
-    borderWidth: '5px',
   };
   const profileVectorStyle = {
-    padding: '10px',
     maxWidth: '100px',
-    borderColor: 'green',
-    borderStyle: 'solid',
-    borderWidth: '5px',
+  };
+  const profileAndName = {
+    display: 'grid',
+    gridTemplateColumns: '1fr 2fr',
+    gridGap: '2px'
   };
   const nameStyle = {
-    // gridTemplateRows: '1fr 1fr',
-    borderColor: 'red',
-    borderStyle: 'solid',
-    borderWidth: '5px',
+    display: 'grid',
+    gridTemplateRows: '1fr 1fr',
+    color: '#38d8ff',
+    textShadow: '3px 3px grey'
   };
 
   return(
     <React.Fragment>
-      <div style={profileImageAndName}>
-        <div>
-          <img src={profileVector} style={profileVectorStyle} alt="Profile Vector"/>
+      <div style={profileImageNameAndLinks}>
+        <div style={profileAndName}>
+          <div>
+            <img src={profileVector} style={profileVectorStyle} alt="Profile Vector"/>
+          </div>
           <div style={nameStyle}>
+            <br/>
             <h3>{name}</h3>
           </div>
         </div>
-        <div style={personalCardStyle}>
-          <p>{tweets}</p>
-          <p>{following}</p>
-          <p>{followers}</p>
+        <div style={linksStyle}>
+          <p>Tweets {tweets}</p> 
+          <p>Following {following}</p>
+          <p>Followers {followers}</p>
         </div>
       </div>
     </React.Fragment>

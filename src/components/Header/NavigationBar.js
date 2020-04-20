@@ -7,6 +7,8 @@ function NavigationBar(){
   const navBarStyles = {
     display: 'grid',
     gridTemplateColumns: '1fr 1fr 1fr',
+    gridGap: '10px',
+    marginLeft: '15px'
     // borderColor: 'navy',
     // borderStyle: 'solid',
     // borderWidth: '3px'

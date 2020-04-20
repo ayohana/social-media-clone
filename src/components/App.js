@@ -18,11 +18,11 @@ function App() {
     Width: '5px',
   }
   
-  const someBorder = {
-    borderColor: 'blue',
-    borderStyle: 'solid',
-    borderWidth: '5px',
-  }
+  // const someBorder = {
+  //   borderColor: 'blue',
+  //   borderStyle: 'solid',
+  //   borderWidth: '5px',
+  // }
 
 
 
@@ -32,7 +32,7 @@ function App() {
       <div style={appStyles}>
         <div><Profile /></div>
         <div><Newsfeed /></div>
-        <div style={someBorder}><FriendsList /></div>
+        <div><FriendsList /></div>
       </div>
     </React.Fragment>
   );

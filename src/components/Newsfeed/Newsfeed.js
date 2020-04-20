@@ -5,9 +5,10 @@ import SearchNewsfeed from './SearchNewsfeed'
 function Newsfeed(){
 
   const newsfeedStyles = {
-    backgroundColor: '#6bbf71',
     height: '1000px',
-    // width: '300px'
+    borderColor: 'grey',
+    borderStyle: 'solid',
+    borderWidth: '1px',    
   }
 
   const newsfeedCardsList = [

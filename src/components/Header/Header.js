@@ -9,19 +9,21 @@ function Header(){
     // width: '900px',
     // height: '200px',
     display: 'grid',
-    gridTemplateColumns: '3fr 0.5fr 1fr 1fr',
+    gridTemplateColumns: '3fr 4fr 1fr 1fr',
+    gridGap: '10px',
     // borderColor: 'blue',
     // borderStyle: 'solid',
     // borderWidth: '5px',
-    textAlign: 'center'
-  }
+    textAlign: 'center',
+    marginBottom: '5px',
+  };
   return (
     <React.Fragment>
       <div style={headerStyles}>
-        <NavigationBar/>
-        <div></div>      
-        <SearchBar/>
-        <SocialMedia/>
+        <NavigationBar />
+        <div ></div>      
+        <SearchBar />
+        <SocialMedia />
       </div>
     </React.Fragment>
   );

@@ -4,7 +4,11 @@ import profileVector2 from '../../img/profile-vector2.png';
 
 const newsfeedCardStyles = {
   display: 'grid',
-  gridTemplateColumns: '1fr 4fr'
+  gridTemplateColumns: '1fr 4fr',
+}
+
+const pStyle = {
+  fontSize: '12px'
 }
 
 const imageStyle = {
@@ -16,11 +20,11 @@ function NewsfeedCard(props){
     <React.Fragment>
       <div style={newsfeedCardStyles}>
         <div >
-          <img style={imageStyle} src={profileVector2}/>
+          <img style={imageStyle} src={profileVector2} alt="profile icon"/>
         </div>
         <div>
-          <h3>{props.title}</h3>
-          <p>{props.body}</p>
+          <h5>{props.title}</h5>
+          <p style={pStyle}>{props.body}</p>
         </div>  
       </div>
       <hr/>
