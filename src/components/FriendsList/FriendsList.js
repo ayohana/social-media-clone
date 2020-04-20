@@ -17,6 +17,21 @@ function FriendsList(){
     },
     {
       name: "Gregor Roach"
+    },
+    {
+      name: "James Whittaker"
+    },
+    {
+      name: "Ebony Holmes"
+    },
+    {
+      name: "Mary Adams"
+    },
+    {
+      name: "Madeline Hooper"
+    },
+    {
+      name: "Craig David"
     }
   ]
 

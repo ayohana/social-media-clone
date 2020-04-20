@@ -16,6 +16,16 @@
 
 This is a web application to practice React fundamental concepts.
 
+## Screenshots
+
+Maximized window view:
+
+<img style="width:600px" src="./public/img/app-screenshot.jpg">
+
+Minimized window view:
+
+<img style="width:600px" src="./public/img/small-window-screenshot.png">
+
 ## React Component Diagram
 
 Sample layout:
