@@ -18,6 +18,12 @@ This is a web application to practice React fundamental concepts.
 
 ## React Component Diagram
 
+Sample layout:
+
+<img style="width:600px" src="./public/img/sample-layout.jpg">
+
+Component Diagram:
+
 <img style="width:600px" src="./public/img/component-diagram.jpg">
 
 ## Known Bugs
