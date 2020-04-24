@@ -8,7 +8,7 @@
 
 [About](#About) | [Screenshots](#Screenshots) | [Bugs](#Known-Bugs) | [Technologies](#Technologies-Used) | [Contact](#Support-and-Contact-Details)
 
-![GitHub](https://img.shields.io/github/license/ayohana/TenantAPI?color=%23DE98B2&style=for-the-badge) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ayohana/TenantAPI/master?color=%23DE98B2&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/ayohana/TenantAPI?color=%23DE98B2&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/ayohana/TenantAPI?color=%23DE98B2&style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/ayohana/social-media-clone?color=%23DE98B2&style=for-the-badge) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ayohana/social-media-clone/master?color=%23DE98B2&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/ayohana/social-media-clone?color=%23DE98B2&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/ayohana/social-media-clone?color=%23DE98B2&style=for-the-badge)
 
 </div>
 
